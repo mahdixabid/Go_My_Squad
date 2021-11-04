@@ -10,13 +10,13 @@ You can also view the timeline, Its just like your favorite Facebook that you wi
 ------------
 
 
-#### These are the following features of Social Networking Site in PHP/MySQLi
+### These are the following features of GO MY SQUAD
 **- Registers User**
-###### -In the section you can register your basic information -In the section you can register your basic information
+###### -In the section you can register your basic information -
 **- Login User-**
 ###### In this section you can login your email and password
 **- Home Page-**
-###### In this section you can view all the status that are posted by your friends
+###### In this section you can view all the rooms of games
 **- Update Profile-**
 ###### In this section you can edit you personal information
 **- Change Picture**
@@ -31,7 +31,7 @@ You can also view the timeline, Its just like your favorite Facebook that you wi
 ------------
 
 
-### How to setup the Social Networking Site in PHP/MySQLi
+### How to setup Go_My_Squad
 #### Step 1: install XAMPP
 <p>Before you can install the XAMPP stack, you need to download the package from the <a href="https://www.apachefriends.org/index.html" target="_blank" rel="noreferrer noopener">official Apache Friends webpage</a>.</p>
  Now make the file executable by running a chmod command:
