@@ -47,7 +47,7 @@ https://phoenixnap.com/kb/wp-content/uploads/2021/04/download-xampp.png
  
  `sudo ./xampp-linux-x64-7.3.5.1-installer.run`
 
-[![](https://phoenixnap.com/kb/wp-content/uploads/2021/04/launch-xampp-setup.png)](https://phoenixnap.com/kb/wp-content/uploads/2021/04/launch-xampp-setup.png)
+[![](https://phoenixnap.com/kb/wp-content/uploads/2021/04/download-xampp.png)](https://phoenixnap.com/kb/wp-content/uploads/2021/04/download-xampp.png)
 
 Click Next and in the following Select Components dialogue, choose the components you want to install. We recommend keeping the default settings and continuing with Next.
 > [![](https://phoenixnap.com/kb/wp-content/uploads/2021/04/manager-xampp-servers.png)](https://phoenixnap.com/kb/wp-content/uploads/2021/04/manager-xampp-servers.png)
