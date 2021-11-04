@@ -1,4 +1,5 @@
-### About The Social Networking Site in PHP/MySQLi
+> # Description 📋 
+
 **"GO MY SQUAD"** is a Social Networking Site project just like the popular social networks like Facebook but we made this version with different idea using PHP and MySQL in backend
 - The point of this project is to find a way for gamers to meet and find new team members from different countries.
 In this Social Networking Site it includes features such as Login/sign up, Post Status, comments, before you could explore a social network site, you need to sign up first by filling up all the required information.
@@ -70,6 +71,17 @@ Click Next and in the following Select Components dialogue, choose the component
 
 - Click go.
 
-#### Step 3 : run the Project
+#### Step 3 : Run the Project
 - Open the browser and go to http://localhost/Go_My_Squad
 - Create new account or login using Admin account (gomysquad@admin.com || admin)
+
+#### To do list:
+
+- Download the specified font along with website as it is accessed to ensure layout consistency
+- Ability of sending friend request
+- Supporting post likes
+- Real time notifications for post likes and friend requests
+- Using search engine instead
+- ~~Full profile edit~~
+- Using plugins to avoid redirection or refresh of pages when making requests
+- Full protection of data from injections
