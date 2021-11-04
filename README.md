@@ -17,7 +17,7 @@ You can also view the timeline, Its just like your favorite Facebook that you wi
 ###### In this section you can login your email and password
 **- Home Page-**
 ###### In this section you can view all the status that are posted by your friends
-**- Update Profile- **
+**- Update Profile-**
 ###### In this section you can edit you personal information
 **- Change Picture**
 ###### In this section you can change you profile picture
@@ -25,7 +25,7 @@ You can also view the timeline, Its just like your favorite Facebook that you wi
 ###### In this section you can post your status
 **- Comment in the Status**
 ###### In this section you can write comment on the status of your friends
-**- Remove Status- **
+**- Remove Status-**
 ###### In this section you can remove the status that you posted
 
 ------------
