@@ -1,0 +1,993 @@
+body,
+button,
+div,
+h1,
+html,
+img,
+input,
+p {
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+b,
+h1,
+h2,
+p,
+strong {
+    color: #dfe0e4;
+}
+@font-face {
+    font-family: Rocket_league-Font;
+    src: url(rl.otf);
+}
+* {
+    font-family: Rocket_league-Font !important;
+}
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url(rl.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(/data/red-cursor.cur), default;
+}
+
+b,
+td {
+    padding-left: 7px;
+}
+
+@font-face {
+    font-family: Valorant-Font;
+    src: url(Valorant-Font.ttf);
+}
+
+#container {
+    width: 1200px;
+    margin: auto;
+}
+
+#left-nav {
+    width: 420px;
+    float: left;
+    background-color: #0000007a;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding-bottom: 44px;
+    position: absolute;
+    left: 60px;
+}
+
+.clip1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    position: relative;
+    width: 95px;
+    height: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.clip1 img {
+    width: 95px;
+    height: 100px;
+    margin: auto;
+    left: -22px;
+    padding-bottom: 20px;
+}
+
+*/ .user-details {
+    width: 200px;
+    margin: -50px 0 0 125px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#right-nav {
+    float: right;
+    width: 750px;
+    background-color: #0000007a;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 25px;
+    margin-top: 45px;
+    border-radius: 94px;
+    padding: 31px;
+    padding-top: 45px;
+    position: relative;
+    right: 27px;
+}
+
+.post-text {
+    width: 99%;
+    height: 150px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 33px;
+    font-size: 19px;
+    text-indent: 23px;
+    background-color: #49628b;
+    border: solid 0;
+    resize: none;
+    border: none;
+    outline: 0;
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: 22px;
+}
+
+.post-text:focus-visible {
+    border: solid 0;
+}
+
+.right-nav1 {
+    margin-top: 10px;
+    width: 66.5%;
+    background-color: #0000007a;
+    height: auto;
+    float: right;
+    padding: 17px;
+}
+
+.profile-pics {
+    position: relative;
+    width: 50%;
+}
+
+.profile-pics img {
+    width: 70px;
+    height: 70px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.profile-pics b {
+    color: #fff;
+    margin-left: 16px;
+    font-size: 23px;
+    position: absolute;
+    padding: 8px;
+}
+
+.profile-pics strong {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 39px;
+    left: 89px;
+}
+
+.post-content {
+    width: 100%;
+}
+
+.post-content p {
+    text-indent: 10px;
+    font-size: 23px;
+}
+
+.post-content img {
+    width: 6%;
+    height: 50%;
+    float: right;
+}
+
+.delete-post {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 50%;
+}
+
+.comment-area {
+    width: 100%;
+    padding: 3px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 12px;
+    padding-top: 25px;
+    padding-bottom: 29px;
+    -webkit-tap-highlight-color: transparent !important;
+    font-family: unset;
+}
+
+.comment-area img {
+    width: 10%;
+    height: 10%;
+}
+
+.user-comment-name {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    font-size: 22px;
+    text-indent: 5px;
+}
+
+.user-comment-name img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 9px;
+}
+
+.time-comment {
+    font-size: 10px;
+    color: #fff;
+    margin-left: 40px;
+    padding-bottom: 7px;
+    /* border-bottom: 1px solid white; */
+    /* margin-bottom: -3px; */
+}
+
+.comment {
+    font-size: 18px;
+    color: #fff;
+    text-indent: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.picture-comment img {
+    width: 10%;
+    height: 10%;
+}
+
+.comment-text {
+    font-size: 13px;
+    width: 100%;
+    height: 7rem;
+    border: solid 0;
+    padding-top: 10px;
+    resize: none;
+    border: none;
+    outline: 0;
+    padding-left: 12px;
+    padding-right: 10px;
+    position: absolute;
+    top: 58px;
+    padding-top: 11px;
+    padding-bottom: 17px;
+}
+
+.comment-display {
+    width: 73%;
+    /* background-color: #97a6bf94; */
+    border: 0px solid #ccc;
+    margin-top: 23px;
+    border-radius: 82px;
+    padding-left: 46px;
+    padding-bottom: 3px;
+}
+
+.c {
+    text-align: center;
+    float: right;
+}
+
+.btn-hover {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: 0;
+}
+
+.btn-hover.share {
+    background-image: linear-gradient(to right, #5a8de0, #4b4b4b, #49628b, #49628b);
+     font-family: Valorant-Font !important;
+}
+
+.button-share {
+    float: right;
+    font-family: Valorant-Font !important;
+}
+
+.btn-comment {
+    background-image: linear-gradient(to right, #5a8de0, #49628b, #49628b, #49628b);
+    border: solid 0;
+    width: 167px;
+    float: right;
+    border-radius: 25px;
+    height: 28px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+   font-family: Valorant-Font !important;
+}
+
+.btn-comment2 {
+    background-image: linear-gradient(to right, #5a8de0, #49628b, #49628b, #49628b);
+    border: solid 0;
+    width: 121px;
+    float: right;
+    border-radius: 25px;
+    height: 26px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-family: Valorant-Font !important;
+    position: relative;
+    left: 78px;
+    top: 195px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+ :focus-visible {
+    border: solid 0 !important;
+}
+
+.navigation {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #000000d9;
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.navigation .icon {
+    color: #49628b;
+}
+
+.navigation:hover {
+    width: 300px;
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.navigation ul li:hover {
+    background: #49628b;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.navigation ul li a .icon .fas {
+    font-size: 24px;
+}
+
+.omen {
+    position: fixed;
+    right: 0;
+    z-index: -10;
+    filter: brightness(0.6);
+}
+
+@media only screen and (max-width: 1440px) {
+    .omen {
+        visibility: hidden;
+    }
+}
+
+ ::-webkit-scrollbar {
+    border: solid 0;
+    width: 10px;
+    background-color: #09111900;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #0080ff00;
+    border: solid 0;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #49628b;
+    border: solid 0;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #49628b;
+}
+
+textarea {
+    padding-top: 25px;
+    color: white;
+}
+
+#right-nav h1 {
+    font-family: Valorant-Font !important;
+}
+
+.button-share p {
+    font-family: Valorant-Font !important;
+}
+
+.comment-text input {
+    color: #000 !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 26px;
+}
+
+.card-container h3 {
+    margin: 10px 0;
+}
+
+.card-container button {
+    left: 91px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.card-container h6 {
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.card-container p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card-container {
+    background-color: #080d128c;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    padding: 30px 0 0;
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+    padding-right: 50px;
+    position: absolute;
+    left: 154px;
+    width: 304px;
+    top: 25px;
+}
+
+.card-container .pro {
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 8px;
+}
+
+.clip1 img {
+    border: 0 solid #c400d7 !important;
+    border-radius: 50% !important;
+    padding: 7px !important;
+    height: 147px !important;
+    width: 149px !important;
+    padding-bottom: 118px;
+    position: absolute;
+    bottom: -12px;
+    margin-left: 5rem !important;
+}
+
+button.primary {
+    background-color: #231e39;
+    border: 0 solid #c400d7;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+.account_info {
+    background-color: #49628b;
+    text-align: left;
+    padding: 15px;
+    margin-top: 85px;
+    width: 423px;
+}
+
+.account_info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.account_info ul li {
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+
+.details-modal {
+    position: fixed !important;
+    background: #121820d9;
+    border-radius: 2.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 37em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 16em;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.details-modal .details-modal-close {
+    align-items: center;
+    color: #111827;
+    display: flex;
+    height: 4.5em;
+    justify-content: center;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.5em;
+}
+
+.details-modal .details-modal-close svg {
+    display: block;
+}
+
+.details-modal .details-modal-title {
+    color: #111827;
+    padding: 1.5em 2em;
+    pointer-events: all;
+    position: relative;
+    width: calc(100% - 4.5em);
+}
+
+.details-modal .details-modal-title h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.details-modal .details-modal-content {
+    border-top: 1px solid #e0e0e0;
+    padding: 2em;
+    pointer-events: all;
+    overflow: auto;
+}
+
+.details-modal-overlay {
+    transition: opacity 0.2s ease-out;
+    pointer-events: none;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+details[open] .details-modal-overlay {
+    pointer-events: all;
+    opacity: 0.5;
+}
+
+details summary {
+    list-style: none;
+}
+
+details summary:focus {
+    outline: 0;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+.container {
+    text-align: center;
+    max-width: 40em;
+    padding: 2em;
+}
+
+.container>h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: normal;
+    color: #111827;
+}
+
+.container>p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btn-comment {
+    padding-top: 7px;
+}
+
+.avatar_profile img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50% !important;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    z-index: 1;
+}
+
+.details-modal .comment-text {
+    overflow: hidden;
+    background-color: #324464;
+    border-radius: 15px;
+}
+
+.delete-post img {
+    width: 32px;
+    height: 33px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+/*profile edit style */
+
+.details-modal_profile {
+    background: rgb(0 0 0 / 39%);
+    border-radius: 0.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 444px;
+    height: 440px;
+    text-align: center;
+    position: fixed;
+    right: 19%;
+    z-index: 99;
+    border-radius: 48px;
+}
+
+.details-modal_profile .details-modal-close_profile {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    background-color: #85828d;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+}
+
+.details-modal_profile .details-modal-close_profile svg {
+    display: block;
+    color: white;
+}
+
+.details-modal_profile .details-modal-title_profile {
+    color: #111827;
+    padding: 1.5em 2em;
+    pointer-events: all;
+    position: relative;
+    width: calc(100% - 4.5em);
+}
+
+.details-modal_profile .details-modal-title_profile h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.details-modal_profile .details-modal-content_profile {
+    border-top: 1px solid #e0e0e0;
+    padding: 2em;
+    pointer-events: all;
+    overflow: auto;
+}
+
+.details-modal-overlay {
+    transition: opacity 0.2s ease-out;
+    pointer-events: none;
+    background: rgba(15, 23, 42, 0.8);
+    position: fixed;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+section details[open] .details-modal-overlay {
+    pointer-events: all;
+    opacity: 0.5;
+}
+
+section details summary {
+    list-style: none;
+}
+
+section details summary:focus {
+    outline: none;
+}
+
+section details summary::-webkit-details-marker {
+    display: none;
+}
+
+code {
+    font-family: Monaco, monospace;
+    line-height: 100%;
+    background-color: #2d2d2c;
+    padding: 0.1em 0.4em;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    border-radius: 7px;
+    color: white;
+    font-weight: normal;
+    font-size: 1.75rem;
+    position: relative;
+    top: -2px;
+}
+/* profile edit style*/
+
+.profile_info {
+    padding-left: 50px;
+}
+
+.profile_info div {
+    padding: 5px;
+}
+
+.profile_info h3 {
+    color: white;
+}
+
+.profile_info input {
+    width: 14rem;
+    border-radius: 30px;
+    height: 2rem;
+    border: solid 0;
+    text-indent: 5px;
+}
+
+.profile_info input:focus {
+    color: white;
+    background-color: #49628b;
+    border: solid 2px;
+}
+
+ :focus-visible {
+    outline: none !important;
+}
+
+
+.delete-post img:hover {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    }
+    @keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+
+}
+
+
+.tools img  {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.tools {
+    display: flex;
+    flex-direction: row;
+}
+.trash2 img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin-left: 602px;
+    display: block;
+}
+.tools .profile_picture img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.post_time {
+    position: relative;
+    bottom: 36px;
+    padding-left: 58px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.poster {
+    padding-left: 4px;
+}
+.tools .poster h3 {
+    color: white;
+}
+
+.post-content {
+    border-bottom: solid 2 px white;
+    padding-bottom: 15px;
+}
+
+
+.post-content {
+    border-bottom: solid 2 px white;
+    padding-bottom: 15px;
+    /* border-bottom: 0.1px solid white; */
+    width: 93%;
+    padding-bottom: 21px;
+    padding-top: 9px;
+    padding-right: 10px;
+    background-color: #49628b;
+    border-radius: 12px;
+    height: 84px;
+}
+
+
+.comment-display img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.comment_avatar img {
+    width: 30px;
+    height: 30px;
+}
+
+.comment_name h3 {
+    color: white;
+    padding-left: 36px;
+    margin-top: -27px;
+    font-size: 16px;
+}
+
+/*
+.rl_car img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 9999;
+}
+*/
+.comment_post {
+    background-color: #cfcece;
+    border-radius: 22px;
+    width: auto;
+    margin-left: 32px;
+    word-break: break-word;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+.edit_info {
+    position: absolute;
+    top: 46%;
+    left: 23%;
+}
+.edit_info h5 {
+    padding-top: 2px;
+    font-family: Valorant-Font !important;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
