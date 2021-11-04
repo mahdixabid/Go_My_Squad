@@ -72,4 +72,4 @@ Click Next and in the following Select Components dialogue, choose the component
 
 #### Step 3 : run the Project
 - Open the browser and go to http://localhost/Go_My_Squad
-- Create new account or login using mahdi account (mahdi@gmail.com || 0000)
+- Create new account or login using Admin account (gomysquad@admin.com || admin)
