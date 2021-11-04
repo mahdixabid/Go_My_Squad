@@ -1,4 +1,4 @@
-[![](https://i.ibb.co/Sn6M6rt/GO-MY-SQUADxxxx.png)](https://i.ibb.co/Sn6M6rt/GO-MY-SQUADxxxx.png)
+[![](https://i.ibb.co/4S40dvw/GO-MY-SQUAD.png)](https://i.ibb.co/4S40dvw/GO-MY-SQUAD.png)
 
 ------------
 
