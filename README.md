@@ -1,3 +1,9 @@
+[![](https://i.ibb.co/Sn6M6rt/GO-MY-SQUADxxxx.png)](https://i.ibb.co/Sn6M6rt/GO-MY-SQUADxxxx.png)
+
+------------
+
+
+
 > # Description 📋 
 
 **"GO MY SQUAD"** is a Social Networking Site project just like the popular social networks like Facebook but we made this version with different idea using PHP and MySQL in backend
