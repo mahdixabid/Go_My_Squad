@@ -84,9 +84,8 @@ Click Next and in the following Select Components dialogue, choose the component
 - ~~Full profile edit~~
 - Using plugins to avoid redirection or refresh of pages when making requests
 - Full protection of data from injections
-
 ------------
 #### AUTHORS 🖋
-- [Omar Yahia](https://github.com/omaryahia4/ "Omar Yahia")
-- [MAHDi ABiD](github.com/mahdixabid "MAHDi ABiD")
+- <a href="https://www.github.com/omaryahia4" title="Omar Yahia">Omar Yahia</a>
+- <a href="https://www.github.com/mahdixabid" title="MAHDi ABiD">MAHDi ABiD</a>
 ------------
