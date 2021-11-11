@@ -10,7 +10,7 @@
 - The point of this project is to find a way for gamers to meet and find new team members from different countries.
 In this Social Networking Site it includes features such as Login/sign up, Post Status, comments, before you could explore a social network site, you need to sign up first by filling up all the required information.
 Once you are done signing up, you can now have the account to access the Social Networking Site.
-In there, you will be able to post any status that you like, upload your photos and you can also write comments on the comment box.
+In there, you will be able to post any status that you like, and you can also write comments on the comment box.
 You can also view the timeline, Its just like your favorite Facebook that you will surely love to explore.
 
 ------------
