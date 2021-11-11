@@ -1,3 +1,4 @@
+### landing page url : https://mahdixabid.github.io/gomysquad.github.io/
 [![](https://i.ibb.co/4S40dvw/GO-MY-SQUAD.png)](https://i.ibb.co/4S40dvw/GO-MY-SQUAD.png)
 
 ------------
